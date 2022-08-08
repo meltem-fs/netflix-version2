@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.container{
+    max-width: 1240px;
+    height: 1036px;
+    background-color: rgba(0, 0, 0, 0.374);
+    margin: auto;
+    margin-top: 30px;   
+}
+h1{
+    font-size: 3.1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    color: red;
+}
