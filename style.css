@@ -5,12 +5,18 @@
 }
 
 body{
+  color: white;
+  background-image: url(./background_image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 
 }
 
 .container{
     max-width: 1240px;
-    height: 1036px;
+    /* height: 1036px; */
     background-color: rgba(0, 0, 0, 0.374);
     margin: auto;
     margin-top: 30px;   
@@ -31,4 +37,56 @@ h3{
 
 header{
     text-align: center;
+}
+
+textarea{
+    resize: none;
+}
+
+
+.survey-form-container{
+   width: 500px;
+   background-color: rgba(0, 0, 0, 0.8);
+   margin: auto;
+   padding: 30px 40px;
+}
+
+.input-box{
+    margin-top: 10px;
+}
+
+#checkbox,#radio{
+    margin-top: 40px;
+}
+
+
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+#form-button:hover{
+    background-color: white;
+    color: red;
+}
+
+.form-submit{
+    margin: auto;
+    width: 160px;
+
 }
